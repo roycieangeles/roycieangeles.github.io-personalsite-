@@ -1,0 +1,188 @@
+body {
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 4.375em;
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: .9rem;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E
+}
+
+.TopContainer {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 70px;
+}
+
+.middle-container {
+  position: relative;
+  padding-top: 50px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 30px 0 20px;
+}
+
+.software {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  margin-top: 10px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.profile {
+  width: 70%;
+  margin: auto;
+}
+
+.profile-img {
+  height: 170px;
+}
+
+.profile-txt {
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+
+.code-img {
+  height: 170px;
+  float: left;
+  margin-right: 10px;
+  padding: 30px 0 40px 0;
+}
+
+.hobby-img {
+  height: 170px;
+  float: right;
+  margin: 20px 0 0 10px;
+}
+
+.design-development {
+  margin: 50px auto 85px auto;
+  width: 60%;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.hobbies-interests {
+  margin: 120px auto 85px auto;
+  width: 60%;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.MyPosition {
+  color: #66BFBF;
+  font-size: 15px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: thick;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.contact-me {
+  margin: 50px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size:0.75rem;
+  padding-top: 20px;
+}
+
+.skills {
+  margin-top: 50px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+.ContactText {
+  padding-bottom: 30px;
+}
+
+.FrontEnd {
+  font-weight: bold;
+}
+
+.BackEnd {
+  font-weight: bold;
+}
+
+.DeploymentDevops {
+  font-weight: bold;
+}
+
+
+/* clear: left - a command which will not wrap around an object. It is an anti-float.
